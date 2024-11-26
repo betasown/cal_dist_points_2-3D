@@ -30,4 +30,4 @@ public:
     double getCoord(size_t index) const;
 };
 
-#endif // CLPOINT_H
+#endif 

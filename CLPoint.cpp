@@ -4,8 +4,6 @@ CLPoint::CLPoint(const std::initializer_list<double>& coords) : coordonnees(coor
 
 CLPoint::CLPoint(const std::vector<double>& coords) : coordonnees(coords) {}
 
-// Implémentation des autres méthodes (inchangées)
-
 double CLPoint::distance(const CLPoint& other) const {
     if (coordonnees.size() != other.coordonnees.size()) {
         throw std::invalid_argument("Les points n'ont pas la même dimension.");

@@ -24,4 +24,4 @@ public:
     void message() const;
 };
 
-#endif // CLPARCOURS_H
+#endif
